@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Website Locker</h2>
+        <div id="add-website" class="section">
+            <h3>Lock a Website</h3>
+            <input type="text" id="website-input" placeholder="e.g., https://facebook.com">
+            <input type="password" id="site-password-input" placeholder="Set a password for this site">
+            <button id="add-website-btn">Lock</button>
+            <p id="error-message" class="error"></p>
+        </div>
+        <div id="locked-sites" class="section">
+            <h3>Locked Websites</h3>
+            <ul id="sites-list"></ul>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
